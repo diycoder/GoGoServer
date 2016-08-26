@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration >
+  <context id="context1" >
+    <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/yif" userId="root" password="root" />
+    <javaModelGenerator targetPackage="com.yif.bean" targetProject="yifservice" />
+    <sqlMapGenerator targetPackage="com.yif.dao" targetProject="yifservice" />
+    <javaClientGenerator targetPackage="com.yif.dao.mapper" targetProject="yifservice" type="XMLMAPPER" />
+    
+     <table tableName="y_user" domainObjectName="User"
+                enableCountByExample="false" enableUpdateByExample="false"
+                enableDeleteByExample="false" enableSelectByExample="false"
+                selectByExampleQueryId="false">           
+        </table>
+        
+         <table tableName="m_release_info" domainObjectName="Mrelease"
+                enableCountByExample="false" enableUpdateByExample="false"
+                enableDeleteByExample="false" enableSelectByExample="false"
+                selectByExampleQueryId="false">           
+        </table>
+        
+         <table tableName="y_userinfo" domainObjectName="Userinfo"
+                enableCountByExample="false" enableUpdateByExample="false"
+                enableDeleteByExample="false" enableSelectByExample="false"
+                selectByExampleQueryId="false">           
+        </table>
+        
+          <table tableName="y_role" domainObjectName="Role"
+                enableCountByExample="false" enableUpdateByExample="false"
+                enableDeleteByExample="false" enableSelectByExample="false"
+                selectByExampleQueryId="false">           
+        </table>
+        
+        <table tableName="y_image" domainObjectName="Image"
+                enableCountByExample="false" enableUpdateByExample="false"
+                enableDeleteByExample="false" enableSelectByExample="false"
+                selectByExampleQueryId="false">           
+        </table>
+        
+        <table tableName="y_contact" domainObjectName="Contact"
+                enableCountByExample="false" enableUpdateByExample="false"
+                enableDeleteByExample="false" enableSelectByExample="false"
+                selectByExampleQueryId="false">           
+        </table>
+        
+         <table tableName="y_comment" domainObjectName="Comment"
+                enableCountByExample="false" enableUpdateByExample="false"
+                enableDeleteByExample="false" enableSelectByExample="false"
+                selectByExampleQueryId="false">           
+        </table>
+        
+          <table tableName="y_liveness" domainObjectName="Liveness"
+                enableCountByExample="false" enableUpdateByExample="false"
+                enableDeleteByExample="false" enableSelectByExample="false"
+                selectByExampleQueryId="false">           
+        </table>
+        
+  </context>
+</generatorConfiguration>
